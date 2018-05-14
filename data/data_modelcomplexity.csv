@@ -1,0 +1,19 @@
+Model,Human.Complexity,Earth.Complexity,Feedbacks,Included
+ABM,10,0,None,NO
+CGE,7,0,None,NO
+Climate Emulator,0,3,None,NO
+ESM,0,10,None,NO
+AOGCM,0,7,None,NO
+EMIC,0,5,None,NO
+DICE,3,1,Two-Way,YES
+IAM,7,3,One-Way,NO
+IGSM,7,5,Two-Way,YES
+BNU-ESM,2,10,Two-Way,YES
+iESM,7,10,Two-Way,YES
+IMAGE-CNRM,7,7,Two-Way,YES
+PRIMA,8,10,Two-Way,YES
+CSM,3,2,Two-Way,YES
+CLM*,1,5,Two-Way,YES
+GUMBO,5,5,Two-Way,YES
+Jarvis,1,1,Two-Way,YES
+GOLDMERGE,7,2,Two-Way,YES

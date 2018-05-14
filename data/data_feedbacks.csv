@@ -1,0 +1,17 @@
+Study,Scenario,Year,GHG emissions (GtCO2eq/yr),C emissions (GtC/yr),CO2 emissions (% change from no feedbacks),Cropland area (%),Irrigation Water Demand (mm/month),Water withdrawals (million m3/yr),Global output (trillion 1989$),Productivity Change,CO2 Concentration (ppm),Global Mean Temperature (degrees C),Evapotranspiration (mm/month),Notes
+Leng and Tang (2014),,2060-2099,,,,,2.495,,,,,,10.73,China only
+Yang et al. (2015),History,2005,0,,,,,,,,-30,-0.4,,They do show emissions in DICE & BNU-HESM but they don't change in 2005
+Nordhaus (1993),,2095,,,,,,,-2,,,,,"Output change is calculated from geoengineering run which assumes abatement is free. This leads to a higher output than the baseline, implying that temperature damages reduces output by 2 trillion"
+Thornton et al. (2017),RCP4.5,2094,,,-0.17,-0.1,,,,0.1,-2.5,,,CO2 concentration change is reported in PgC. I divided by 2 to get ppm
+Reilly et al. (2007),Climate and GHGs only,2100,,,,,,,,0.6,,,,Climate and GHGs only and High pollution scenario ends with temperature rise since 2000 of ~2.75C
+Reilly et al. (2007),High pollution,2100,,,,,,,,-0.3,,,,Climate and GHGs only and High pollution scenario ends with temperature rise since 2000 of ~2.75C
+Monier et al. (2018),2C,2050,,,,,,,,0.2,,,,
+Monier et al. (2018),2C,2100,,,,,,,,0.45,,,,
+Monier et al. (2018),Paris Forever,2050,,,,,,,,-0.1,,,,
+Monier et al. (2018),Paris Forever,2100,,,,,,,,-0.15,,,,
+Beckage et al. (2018),BAU,2100,,,,,,,,,,-1.5,,Baseline temp rise in 2100 is 4.9
+Beckage et al. (2018),BAU,2100,,,,,,,,,,1.3,,Baseline temp rise in 2100 is 4.9
+Voldoire et al. (2007),A2,2000,,,,,,,,,,0.5,,Baseline temp rise in 2100 is ~4.5C
+Voldoire et al. (2007),A2,2100,,,,,,,,,,0.5,,Baseline temp rise in 2100 is ~4.5C
+Beckage et al. (2018),BAU,2100,,175,,,,,,,,,,Baseline temp rise in 2100 is 4.9
+Beckage et al. (2018),BAU,2100,,,-1,,,,,,,,,Baseline temp rise in 2100 is 4.9
