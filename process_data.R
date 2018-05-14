@@ -1,3 +1,9 @@
+# *****************************************************************************
+# * This file reads in a file of Web of Science search results and identifies *
+# * distinct articles. It was used to determine which articles to read for    *
+# * the review.                                                               *
+# *****************************************************************************
+
 library(readr)
 library(tidyr)
 library(dplyr)

@@ -1,3 +1,10 @@
+# *****************************************************************************
+# * This file reads in RCP data and feedback data. It then generates          *
+# * Figure 5 of the paper, showing key variables in the RCPs and the effect   *
+# * of feedbacks on these variables. RCP information includes a full          *
+# * time series (2005-2100). Feedbacks are only for selected years.           *
+# *****************************************************************************
+
 library(readr)
 library(tidyr)
 library(dplyr)

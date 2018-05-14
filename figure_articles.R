@@ -1,3 +1,9 @@
+# *****************************************************************************
+# * This file reads in a file including categorization information for all    *
+# * articles reviewed. It then generates Figure 1, Figure 2, and Figure 3,    *
+# * showing the articles by classification, over time, and by region.         *
+# *****************************************************************************
+
 library(readr)
 library(tidyr)
 library(dplyr)

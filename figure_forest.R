@@ -1,3 +1,9 @@
+# *****************************************************************************
+# * This file reads in RCP data and feedback data. It then generates          *
+# * Figure S1 of the paper, showing the change in key variables due to        *
+# * feedbacks at the end of the century.                                      *
+# *****************************************************************************
+
 library(readr)
 library(tidyr)
 library(dplyr)

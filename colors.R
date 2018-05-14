@@ -1,3 +1,7 @@
+# *****************************************************************************
+# * This file sets color scales and shape scales for the figures              *
+# *****************************************************************************
+
 # The palette with black:
 cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
@@ -16,7 +20,7 @@ class.fill <- c( "Commentary" = "#D55E00", "Coupling example" = "#F0E442", "Excl
                  "Integrated Model" = "#0072B2", "Linking tool" = "#009E73", "Review" = "#CC79A7", "Other" = "#CC79A7")
 classFillScale <- scale_fill_manual(name = "Classification", values = class.fill )
 
-# Spataial colors
+# Spatial colors
 spatial.fill <- c( "Global" = "#000000", "Regional-China" = "#F0E442", 
                  "Regional-Eurasia" = "#0072B2", "Regional-USA" = "#CC79A7")
 spatialFillScale <- scale_fill_manual(name = "Spatial", values = spatial.fill )
