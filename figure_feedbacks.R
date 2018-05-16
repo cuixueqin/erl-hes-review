@@ -315,5 +315,5 @@ pe <- pe + theme( legend.text = element_text(size = 16),
 print(pe)
 
 png( "./output/Figure5.png", width = 960, height = 960, units = "px", pointsize = 12)
-multiplot(pa, pd, pe, pb, pc, cols=2 )
+multiplot(pa, pd, pc, pb, pe, cols=2 )
 dev.off()

@@ -261,9 +261,9 @@ pa <- pa + theme(legend.title=element_blank()) + ylab( "" ) + xlab(xlab.a)  + xl
 pa <- pa + geom_vline(xintercept=0)
 pa <- pa + ggtitle(title.a) + rcpColorScale 
 pa <- pa + theme( legend.position="none",
-                  axis.text.x = element_text(size = 16), 
-                  axis.text.y = element_text(size = 16),
-                  axis.title = element_text(size = 16 ),
+                  axis.text.x = element_text(size = 14), 
+                  axis.text.y = element_text(size = 14),
+                  axis.title = element_text(size = 14 ),
                   panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank() )
 print(pa)
@@ -286,9 +286,9 @@ pb <- pb + geom_vline(xintercept=0)
 pb <- pb + theme(legend.title=element_blank()) + ylab( "" ) + xlab(xlab.b) 
 pb <- pb + ggtitle(title.b) + rcpColorScale + studyShapeScale + xlim(-max_x, max_x)
 pb <- pb + theme( legend.position="none",
-                  axis.text.x = element_text(size = 16), 
-                  axis.text.y = element_text(size = 16),
-                  axis.title = element_text(size = 16 ),
+                  axis.text.x = element_text(size = 14), 
+                  axis.text.y = element_text(size = 14),
+                  axis.title = element_text(size = 14 ),
                   panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank() )
 print(pb)
@@ -311,9 +311,9 @@ pc <- pc + geom_vline(xintercept=0)
 pc <- pc + theme(legend.title=element_blank()) + ylab( "" ) + xlab(xlab.c) 
 pc <- pc + ggtitle(title.c) + rcpColorScale + studyShapeScale + xlim(-max_x, max_x)
 pc <- pc + theme( legend.position="none",
-                  axis.text.x = element_text(size = 16), 
-                  axis.text.y = element_text(size = 16),
-                  axis.title = element_text(size = 16 ),
+                  axis.text.x = element_text(size = 14), 
+                  axis.text.y = element_text(size = 14),
+                  axis.title = element_text(size = 14 ),
                   panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank())
 print(pc)
@@ -341,9 +341,9 @@ pd <- pd + geom_vline(xintercept=0)
 pd <- pd + theme(legend.title=element_blank()) + ylab( "" ) + xlab(xlab.d) 
 pd <- pd + ggtitle(title.d) + rcpColorScale + studyShapeScale + xlim(-max_x, max_x)
 pd <- pd + theme( legend.position="none",
-                  axis.text.x = element_text(size = 16), 
-                  axis.text.y = element_text(size = 16),
-                  axis.title = element_text(size = 16 ),
+                  axis.text.x = element_text(size = 14), 
+                  axis.text.y = element_text(size = 14),
+                  axis.title = element_text(size = 14 ),
                   panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank())
 print(pd)
@@ -357,14 +357,14 @@ pe <- pe + geom_vline(xintercept=0)
 pe <- pe + theme(legend.title=element_blank()) + xlab( xlab.e ) + ylab("") 
 pe <- pe + ggtitle(title.e) + rcpColorScale + studyShapeScale + xlim(-max_x, max_x)
 pe <- pe + theme( legend.position="none",
-                  axis.text.x = element_text(size = 16), 
-                  axis.text.y = element_text(size = 16),
-                  axis.title = element_text(size = 16 ),
+                  axis.text.x = element_text(size = 14), 
+                  axis.text.y = element_text(size = 14),
+                  axis.title = element_text(size = 14 ),
                   panel.grid.major = element_blank(),
                   panel.grid.minor = element_blank())
 print(pe)
 
 
-png( "./output/FigureS1.png", width = 960, height = 960, units = "px", pointsize = 12)
-multiplot(pa, pd, pe, pb, pc, cols=2 )
+png( "./output/FigureS1.png", width = 1080, height = 960, units = "px", pointsize = 12)
+multiplot(pa, pd, pc, pb, pe, cols=2 )
 dev.off()
